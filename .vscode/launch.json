@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Acer/LEC-Cpp",
-      "program": "c:/Users/Acer/LEC-Cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/Acer/OneDrive/Desktop/LEC-CPP",
+      "program": "c:/Users/Acer/OneDrive/Desktop/LEC-CPP/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
