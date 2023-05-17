@@ -1,31 +1,44 @@
 #include <iostream>
 #include <string>  
-
+using namespace std;
 class Student  
 {
     
 private:
     int Rollno;
-    std::string Name;  
+    string Name;  
     int age;
     int assignment_marks;
 
 public:
-    void showAge()  
+   void ask(void)
+   {
+    cout<<"Enter name : "<<endl;
+    cin>>Name;
+    cout<<"Enter Rollno : "<<endl;
+    cin>>Rollno;
+    cout<<"Enter age : "<<endl;
+    cin>>age;
+    cout<<"Enter assignment_marks : "<<endl;
+    cin>>assignment_marks;
+
+   }
+    void show(void)  
     {
-        std::cout << "The age is: " << age << std::endl;  
+        cout << "The age is: " << age << endl;  
+        cout << "The Rollno is: " << Rollno << endl;  
+        cout << "The Name is: " << Name << endl;  
+        cout << "The assignment_marks is: " << assignment_marks << endl;  
     }
 };
 
 int main()
 {
     Student std1;  
+    std1.ask();
+    
 
-    std1.Rollno = 5;  
-    std1.Name = "Hari"; 
-    std1.age = 55;
-
-    std1.showAge();  
+    std1.show();  
 
     return 0;
 }
