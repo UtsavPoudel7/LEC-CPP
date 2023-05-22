@@ -64,4 +64,4 @@ int main()
 }
 
 
-//Assignment :: Write the same code but ask the value by the user.
+//Assignment :: Write the same code but ask the value from the user.
