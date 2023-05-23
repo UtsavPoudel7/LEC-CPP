@@ -25,7 +25,7 @@ public:
         cout<<"Enter the breadth of the room : ";
         cin>>breadth;
 
-        cout<<"Enter the height of the room : ";
+        cout<<"Enter the height of the room : n";
         cin>>height;
     }
 };
