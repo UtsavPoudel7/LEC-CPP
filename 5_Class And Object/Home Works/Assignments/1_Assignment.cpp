@@ -1,3 +1,5 @@
+//Basic exmaple for class and object 
+
 #include <iostream>
 using namespace std;
 
