@@ -8,12 +8,12 @@ public:
     demo()
     {
         count++;
-        cout << "No of object created :";
+        cout << "No of object created :"<<count<<endl;
     }
     ~demo()
     {
         count--;
-        cout << "\nNo of object destroyed" << count;
+        cout << "\nNo of object destroyed :" << count;
     }
 };
 

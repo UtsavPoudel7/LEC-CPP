@@ -59,9 +59,6 @@ public:
         salary = 0;
     }
 
-};
-
-
     void display()
     {
         cout << "Employee Details" << endl;
@@ -69,6 +66,7 @@ public:
         cout << "ID: " << employee_ID << endl;
         cout << "Salary: " << salary << endl;
     }
+};
 
 int main()
 {
@@ -81,3 +79,5 @@ int main()
 
     return 0;
 }
+
+

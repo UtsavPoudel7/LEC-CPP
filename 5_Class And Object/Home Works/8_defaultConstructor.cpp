@@ -1,62 +1,35 @@
-// #include <iostream>
-// using namespace std;
-
-// class Person
-// {
-// private:
-//     string name;
-//     int age;
-
-// public:
-//     // Default constructor
-//     Person()
-//     {
-//         name = "Rajesh Hamal";
-//         age = 50;
-//         }
-
-//     // Method
-
-//     void display()
-//     {
-//         cout << "Name: " << name << endl;
-//         cout << "Age: " << age << endl;
-//     }
-// };
-
-// int main()
-// {
-//     Person person;
-
-//     // Calling the display method to print the default values
-//     person.display();
-
-//     return 0;
-// }
-
 #include <iostream>
 using namespace std;
 
-class Rectangle
+class Person
 {
 private:
-    int length, breadth;
+    string name;
+    int age;
 
 public:
-    Rectangle()
+    // Default constructor
+    Person()
     {
-        length = 10;
-        breadth = 5;
-    }
+        name = "Rajesh Hamal";
+        age = 50;
+        }
 
-    int calculateArea()
+    // Method
+
+    void display()
     {
-        return length * breadth;
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
     }
 };
 
 int main()
 {
-    Rectangle r1;
-    cout << "The area is :" << r1.calculateArea() << endl;
+    Person person;
+
+    // Calling the display method to print the default values
+    person.display();
+
+    return 0;
 }
