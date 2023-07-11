@@ -77,6 +77,7 @@ void manager::getdata()
     student::getdata();
     cout<<"Salary";
     cin>>salary;
+    
 }
 
 void manager::display()
@@ -89,9 +90,9 @@ void manager::display()
 int main()
 {
 manager m;
-cout<<"Enter data on employee: ";
+cout<<"Enter data on employee:\n ";
 m.getdata();
-cout<<"Entered data on employee are: ";
+cout<<"Entered data on employee are: \n";
 m.display();
 return 0;
 }

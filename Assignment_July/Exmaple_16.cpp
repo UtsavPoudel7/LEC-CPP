@@ -18,6 +18,7 @@ public:
 
 void Base::incr_count()
 {
+    
     count++;
 }
 
