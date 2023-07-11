@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-    Rectangle r1[50];
+    Rectangle r1[5];
     for (int i = 0; i < 5; i++)
     {
         r1[i].getvalue();
